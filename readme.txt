@@ -13,3 +13,6 @@ Execute the season_rankings_insert.sql script to insert entries into the season_
 Execute "python qb_model_query.py" to get the previous averages for each game
 Execute "python generate_qb_model.py qb_model.json > qb_naive.json" to create the Naive Bayes classification model
 Execute "python predict_performance.py"
+
+-- Notes
+Sample Predictions and Actual Values are located in "~/Python/Season 2014 Predictions" for the quarterbacks for this season
