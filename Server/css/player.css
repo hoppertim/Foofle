@@ -1,0 +1,73 @@
+body {
+	min-width: 1300px;
+	min-height:800px;
+}
+
+.background{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+   	background: -moz-linear-gradient(rgba(126, 42, 40, 0.8) 0%, rgba(220, 220, 220, 0.7) 15%, rgba(220, 220, 220, .9) 50%, rgba(220, 220, 220, 0.7) 85%, rgba(126, 42, 40, 0.8));
+}
+
+.center {
+    margin-left: 1%;
+    position: fixed;
+    top: 30%;
+}
+#player-description {
+	text-align:center;
+}
+
+.stat_div {
+	margin:auto;
+}
+
+#stat-left {
+	position:absolute;
+	margin-left: 20%;
+	align: center;
+}
+
+#stat-middle {
+	position:absolute;
+	margin-left: 40%;
+}
+
+#stat-right {
+	position:absolute;
+	margin-left: 60%;
+}
+
+.type {
+	font-family: arial;
+	font-weight: bold;
+	text-align: right;
+}
+.info {
+	font-family: arial;
+	font-weight: bold;
+	text-align: left;
+	color: #949393
+}
+hr {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 5px;
+	width:100%;
+}
+hr2 {
+    display: block;
+    margin-top: 400px;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 5px;
+	width:100%;
+} 

@@ -1,3 +1,7 @@
+-- Folder Setup
+All the files necessary for setting up and maintaining the database are located in the Database folder.
+All the files necessary for hosting on the web server are located in the Server folder.
+
 -- Initial setup of the database
 To setup the database used in the algorithm follow the instructions for nfldb from https://github.com/BurntSushi/nfldb.
 This sets up a local copy of a postgres database that is updated with nfl player and game data.
@@ -14,5 +18,3 @@ Execute "python qb_model_query.py" to get the previous averages for each game
 Execute "python generate_qb_model.py qb_model.json > qb_naive.json" to create the Naive Bayes classification model
 Execute "python predict_performance.py"
 
--- Notes
-Sample Predictions and Actual Values are located in "~/Python/Season 2014 Predictions" for the quarterbacks for this season

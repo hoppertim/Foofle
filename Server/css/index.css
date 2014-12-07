@@ -1,0 +1,131 @@
+body {
+    min-width: 1000px;
+}
+
+.image {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.basic_search {
+    position:relative;
+    margin:auto;
+    width: 600px;
+}
+
+.position-button {
+    top:0px;
+}
+
+.team-button {
+    top:0px;
+    left:500px;
+
+}
+
+form {
+    margin-top: 40px;
+}
+
+.input {
+    display: inline-block;
+    height: 30px;
+    font-size: 16px;
+    width: 286px;
+    border: 1px solid #ccc;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 5px;
+    outline: none;
+    left: 150px;
+}
+.input:hover,
+.input:focus,
+.input:hover + .right,
+.input:focus + .right {
+    border-color: #4ab5d9;
+}
+
+.dropdown-menu{
+    min-width: 100px;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu>a::after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #cccccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color: #ffffff;
+}
+.dropdown-submenu {
+    float: none;
+}
+.dropdown-submenu>.dropdown-menu {
+    right: -100%;
+    margin-right: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+.dropdown-submenu>.dropdown-menu-left {
+    left: -100%;
+    margin-right: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+.sidebar {
+    margin-bottom: 50%;
+    margin-top: 50%;
+    margin-right: 50%;
+    margin-left: 50%;
+}
+/* Collapsable Advanced Search */
+
+.entire-page {
+    width: 100%;
+}
+.advanced-div {
+    width: 100%;
+    margin:auto;
+}
+.advanced-button {
+    margin-left:125.5px;
+}
+.advanced-position {
+    margin-left:46px;
+}
+.collapse.in {
+    overflow: visible;
+}
+/* Take care of scrolling for Advanced Team Selection Dropdown */
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+a.dropdown-toggle {
+    min-width: 66px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+input#advanced-submit {
+    min-width: 100px;
+}
