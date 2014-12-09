@@ -68,6 +68,8 @@
                     </li>
                     <li><a>TE</a>
                     </li>
+                    <li><a>K</a>
+                    </li>
                     <li><a>DEF</a>
                     </li>
                 </ul>
@@ -174,6 +176,8 @@
                     <li><a href="#">WR</a>
                     </li>
                     <li><a href="#">TE</a>
+                    </li>
+                    <li><a href="#">K</a>
                     </li>
                     <li><a href="#">DEF</a>
                     </li>
